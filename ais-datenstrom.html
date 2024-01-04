@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>    
+    <meta charset="UTF-8">
+    <title>ais Datenstrom</title>
+  </head>
+  <body>
+    <form action="cgi-bin/ais-datenstrom.sh" method="get">
+        <label for="type">Wähle eine Option:</label>
+        <select name="type" id="auswahl">
+          <option value="0">Alle</option>  
+          <option value="1">Type 1</option>
+          <option value="3">Type 3</option>
+          <option value="5">Type 5</option>
+          <option value="18">Type 18</option>
+          <option value="24">Type 24</option>  
+        </select>
+        <br>
+        <label for="date">Wählen Sie bitte datum:</label>
+        <input type="date" min="yyyy-mm-dd" max="yyyy-mm-dd" name="date">
+        <br>
+        <input type="submit" value="Absenden">
+    </form>
+  </body>
+</html>
