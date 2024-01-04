@@ -2,7 +2,7 @@
 ## ais-datenstrom.sh
 Die Datei "ais-datenstrom.sh" ruft AIS-Daten vom AIS-empfangenden Server an der Hochschule ab und speichert sie im Verzeichnis "/lib/cgi-bin/daten/ais". Um diese Daten zu verwenden, müssen Sie zunächst einen Ordner mit dem Namen "daten" im Verzeichnis "/lib/cgi-bin/" erstellen. Innerhalb dieses "daten"-Ordners muss ein weiterer Ordner mit dem Namen "ais" angelegt werden.
 
-## ais.html
+## ais-datenstrom.html
 "ais.html" ist eine HTML-Seite, auf der der Benutzer das Formular absendet.
 
 ## ais-header.html und ais-footer.html
